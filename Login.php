@@ -13,7 +13,7 @@
         <div class="content">      
             <!--FORMULÁRIO DE LOGIN-->
             <div id="login">
-                <form method="post" action=""> 
+                <form method="post" action="conexaoLogin.php"> 
                     <h1>Login</h1> 
                     <p> 
                         <label for="nome_login">Seu nome</label>
