@@ -1,12 +1,12 @@
 <?php
 session_start();
-include 'conexaoCadastro.php';
+include 'conexaoBanco.php';
 
 $email=$_POST['email_login'];
 $senha=$_POST['senha_login'];
 
 $login = "SELECT * FROM projeto WHERE email= '$email' AND senha= '$senha'";
-$result= $cone->query($login);
+$result= $conecta->query($login);
 
 if($result->num_rows>0){
     $_SESSION['email_login']=$email;
@@ -16,3 +16,4 @@ if($result->num_rows>0){
 else{
     echo alert("Dados invalidos");
 }
+

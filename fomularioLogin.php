@@ -36,7 +36,7 @@
 
                     <p class="link">
                         Ainda não tem conta?
-                        <a href="Cadastro.php">Cadastre-se</a>
+                        <a href="formularioCadastro.php">Cadastre-se</a>
                     </p>
                 </form>
             </div>
