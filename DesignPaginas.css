@@ -1,11 +1,14 @@
 body{
-    background-color:#87ceeb;
+    background-color: #87ceeb;
 }
 /* CSS reset */
 *, *:before, *:after { 
     margin:0;
     padding:0;
     font-family: Arial,sans-serif;
+}
+body1{
+    background-color: #ccffff ;
 }
 
 /* remove a linha dos links */
