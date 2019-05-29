@@ -100,7 +100,7 @@
           <a href="Pagina4.php"><h6>Farmacias Paceiras</h6></a><br>
           <a href="Pagina5.php"><h6>Postos de Saude</h6></a><br>
           <a href="Pagina6.php"><h6>Sites com o mesmo conteudo</h6></a><br>
-        </a>
+        
         
       </li>
      
