@@ -11,7 +11,7 @@ $result= $conecta->query($login);
 if($result->num_rows>0){
     $_SESSION['email_login']=$email;
     $_SESSION['senha_login']=$senha;
-    header('location:PrimeiraPagina.php');
+    header('location: Pagina2.php');
 }
 else{
     echo alert("Dados invalidos");
