@@ -25,32 +25,36 @@
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Login</div>
       <div class="card-body">
-        <form>
+        <form method="post" action="conexaoLogin.php">
           <div class="form-group">
             <div class="form-label-group">
-              <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
-              <label for="inputEmail">Email address</label>
+              <input type="email" id="email_login" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
+              <label for="inputEmail">Email</label>
             </div>
           </div>
+            
           <div class="form-group">
             <div class="form-label-group">
-              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-              <label for="inputPassword">Password</label>
+              <input type="password" id="senha_login" class="form-control" placeholder="Password" required="required">
+              <label for="inputPassword">Senha</label>
             </div>
           </div>
+            
           <div class="form-group">
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="remember-me">
-                Remember Password
+                Lembrar-me
               </label>
             </div>
           </div>
-          <a class="btn btn-primary btn-block" href="index.html">Login</a>
+            
+            <a class="btn btn-primary btn-block" href="Pagina1.php">Login</a>
         </form>
+          
         <div class="text-center">
-          <a class="d-block small mt-3" href="register.html">Register an Account</a>
-          <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+          <a class="d-block small mt-3" href="register.html">Cadastrar-se</a>
+          <a class="d-block small" href="forgot-password.html">Esqueceu sua senha?</a>
         </div>
       </div>
     </div>
